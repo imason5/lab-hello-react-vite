@@ -26,3 +26,18 @@
 .image-section p {
   color: grey;
 }
+
+/* media queries */
+@media (max-width: 1024px) {
+  .image-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-section__grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
