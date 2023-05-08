@@ -1,0 +1,29 @@
+.image-section {
+  background-color: white;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.image-section__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+
+.image-section__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-section h3 {
+  color: #1f2535;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.image-section p {
+  color: grey;
+}
